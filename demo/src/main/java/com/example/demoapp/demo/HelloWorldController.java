@@ -10,10 +10,10 @@ public class HelloWorldController {
 
     @GetMapping("/hello")
     public String hello() {
-        return "Greetings from Spring Boot!";
+        return "Greetings from Spring Boot! hehehe";
     }
 
-    public static void main(String[] args) {
-        SpringApplication.run(HelloWorldController.class, args);
-    }
+    // public static void main(String[] args) {
+    //     SpringApplication.run(HelloWorldController.class, args);
+    // }
 }
